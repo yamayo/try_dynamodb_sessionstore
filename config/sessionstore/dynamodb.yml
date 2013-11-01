@@ -43,13 +43,13 @@ secret_key: 8cd75dc108e6296d8c4137d7a00a7fc6a80e93da213e552a87504c36c3f961494f9d
 # from the current time that a session was created.
 # By default this is 7 days.
 #
-# max_age: 604800
+max_age: 604800
 
 # [Integer] Maximum number of seconds
 # before the current time that the session was last accessed.
 # By default this is 5 hours.
 #
-# max_stale: 18000
+max_stale: 18000
 
 # [Boolean] Define as true or false for whether you want to enable locking
 # for all accesses to session data.
